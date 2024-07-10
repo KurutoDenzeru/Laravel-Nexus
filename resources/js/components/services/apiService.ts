@@ -1,5 +1,6 @@
 import axios from "axios";
 
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 const API_BASE_URL = (window as any).env.API_BASE_URL;
 
 const apiService = axios.create({
