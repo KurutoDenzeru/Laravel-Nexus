@@ -3,7 +3,11 @@ import { BrowserRouter } from "react-router-dom";
 import Routes from "./routes/Routes";
 
 const App = () => {
-	return <>Hi I'm Kurt</>;
+	return (
+		<BrowserRouter>
+			<Routes />
+		</BrowserRouter>
+	);
 };
 
 export default App;
